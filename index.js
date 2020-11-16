@@ -13,6 +13,9 @@ function handleClick(e) {
 function greet(time){
   let hour=time.split(":");
   if(hour<=12){
+    return "Good Morning";
+  }
+  else if(hour>17 && hour<=24){
     return ""
   }
 }
